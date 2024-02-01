@@ -21,7 +21,7 @@ python scripts/plot_phase_portrait.py --game StagHunt          --a0_type ExactLo
 python scripts/plot_phase_portrait.py --game StagHunt          --a0_type Sasa      --a1_type Sasa      --learning_rate 0.1     --a0_args 50 5  --a1_args 50 5  --num_steps 25
 
 # Figure 3
-python scripts/train_marl.py --game IteratedPrisonersDilemma --a0_type Sasa        --a1_type Naive     --learning_rate 0.1 --a0_args 20 1 --num_steps 5000 --plot_latex --downsample_ratio 100
+python scripts/train_marl.py --game IteratedPrisonersDilemma --a0_type Sasa        --a1_type Naive     --learning_rate 0.1 --a0_args 20 1 --num_steps 5000 --downsample_ratio 100
 
 # Figure 4
 python scripts/compare_welfuse.py
