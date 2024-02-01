@@ -75,7 +75,7 @@ def plot_results(args, results_dict):
         ]
         welfare_name_list = ["greedy", "egalitarian", "fairness"]
         noisy_data_dict = {
-            name: plotting.NoisyData()
+            name: util.NoisyData()
             for name in welfare_name_list
         }
         for welfare_history in welfare_history_list:
@@ -86,7 +86,8 @@ def plot_results(args, results_dict):
         lines = [
             line
             for i, name in enumerate(welfare_name_list)
-            for line in noisy_data_dict[name].get_lines(
+            for line in plotting.get_noisy_data_lines(
+                noisy_data_dict[name],
                 colour=cp(i),
                 name=name,
             )

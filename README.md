@@ -4,7 +4,7 @@ Set up with these commands:
 
 ```bash
 python -m pip install -U pip
-python -m pip install torch torchvision torchaudio numpy matplotlib jutility==0.0.14
+python -m pip install torch torchvision torchaudio numpy matplotlib jutility==0.0.16
 ```
 
 Make figures from the paper with the following commands respectively:
