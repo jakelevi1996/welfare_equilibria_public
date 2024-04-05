@@ -1,5 +1,16 @@
 # welfare_equilibria_public
 
+This repository contains code to reproduce figures in the paper [The Danger Of Arrogance: Welfare Equilibra As A Solution To Stackelberg Self-Play In Non-Coincidental Games](https://arxiv.org/abs/2402.01088) ([PDF](https://arxiv.org/pdf/2402.01088)), which can be cited as follows:
+
+```
+@article{levi2024danger,
+  title={The Danger Of Arrogance: Welfare Equilibra As A Solution To Stackelberg Self-Play In Non-Coincidental Games},
+  author={Levi, Jake and Lu, Chris and Willi, Timon and de Witt, Christian Schroeder and Foerster, Jakob},
+  journal={arXiv preprint arXiv:2402.01088},
+  year={2024}
+}
+```
+
 Set up with these commands:
 
 ```bash
